@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Narrow Bold', sans-serif;
+
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+#carouselExample {
+    margin: 2rem;
+}
+
+.cuenta-registrar {
+    font-size: 13px;
+    color: red;
+    text-decoration: none;
+}
+
+#btnradio1:checked~#form-ropa,
+#btnradio2:checked~#form-tecnologia,
+#btnradio3:checked~#form-hogar {
+    display: block;
+}
+
+.formulario {
+    display: none;
+}
+
+#btn-ropa:checked~#form-ropa,
+#btn-tecnologia:checked~#form-tecnologia,
+#btn-hogar:checked~#form-hogar {
+    display: block;
+}
+
+h5{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: palevioletred;
+    font-size: 160%;
+    font-weight: bold;
+}
+h3{
+    font-family: fantasy;
+    font-weight: lighter;
+    font-size: 130%;
+    margin-top: 1rem;
+}
+.btn-group {
+    text-align: center;
+    display: block;
+}
+
+nav{
+    background-color: #ab0810;
+}

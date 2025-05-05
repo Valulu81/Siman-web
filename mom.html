@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Parte Superior-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light fs-3 ps-3 fw-bold" href="index.html">Siman</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3 fs-4 ">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="#Nosotros-f">Nosotros</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-danger bg-danger-subtle" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Fin Parte Superior-->
+
+    <main class="container">
+        <div class="btn-group mt-3 d-flex " role="group" aria-label="Basic radio toggle button group">
+            <div>              
+                <!-- Botones para categoria de cosas -->
+                <input type="radio" class="btn-check " name="btnradio" id="btn-ropa" autocomplete="off" checked>
+                <label class="btn btn-outline-danger me-2 fs-1" for="btn-ropa"><ion-icon name="shirt-sharp"></ion-icon></label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btn-tecnologia" autocomplete="off">
+                <label class="btn btn-outline-danger me-2 fs-1" for="btn-tecnologia"><ion-icon name="rose"></ion-icon></label>
+
+                <input type="radio" class="btn-check" name="btnradio" id="btn-hogar" autocomplete="off">
+                <label class="btn btn-outline-danger fs-1" for="btn-hogar"><ion-icon name="bag-handle"></ion-icon></label>
+                
+                <!-- Formulario 1: ropa -->
+                <div class="formulario mt-4" id="form-ropa">
+                    <form>
+                        <h5 class="text-center">Ropa para Mamá</h5>
+                        <section class="d-lg-flex justify-content-around m-1">
+                            <article class=" p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1/v1746405736/599f4776c776c54b2516d889291166c2_dpt856.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido celeste">
+                                <h3>Camisa Azul</h3>
+                                <p>Bella camisa azul con volantes ideal para Mamá</p>
+                                <button class="btn btn-danger fw-bold" type="button">15% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$35.00</button>
+                            </article>
+                
+                            <article class="p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1/v1746405588/cdbe27ca1df49020424099086f46b582_htwxjr.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="zapatos con flores">
+                                <h3>Camisa blanca lisa</h3>
+                                <p>Tacones de tacon bajo cuadrado color celeste con decoraciones de flores</p>
+                                <button class="btn btn-danger fw-bold" type="button">20% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$20.00</button>
+                            </article>
+                
+                            <article class="  p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1/v1746405664/7faa1ad8914899c91578e8bb171b3602_hwzne9.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido amarillo">
+                                <h3>Camisa Corta</h3>
+                                <p>Camisa elegante color mostaza</p>
+                                <button class="btn btn-danger fw-bold" type="button">35% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$35.00</button>
+                            </article>
+
+                            <article class="  p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1/v1746405769/ef51d5807af4168fe0bff950953a9839_duk40c.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido amarillo">
+                                <h3>Camisa color Terracota</h3>
+                                <p>Camisa de manga larga con collar incluido</p>
+                                <button class="btn btn-danger fw-bold" type="button">40% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$55.00</button>
+                            </article>
+                        </section>
+                    </form>
+                </div>
+
+                <!-- Formulario 2: Regalos -->
+                <div class="formulario mt-4" id="form-tecnologia">
+                    <form>
+                        <h5 class="text-center">Regalitos para Mamá</h5>
+                        <section class="d-lg-flex justify-content-around m-1">
+                            <article class=" p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746406354/26704a7669745492527fc29c6ffa2702_pp44ui.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido celeste">
+                                <h3>Arreglo de Flores con colgante</h3>
+                                <p>Arreglo de flores blancas junto a collar de su eleccion dentro de una cajita circular</p>
+                                <button class="btn btn-danger fw-bold" type="button">25% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$30.00</button>
+                            </article>
+                
+                            <article class="p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746406228/24b06474a5236fd818ce362437dad550_g9fq5m.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="zapatos con flores">
+                                <h3>Cuadro floral</h3>
+                                <p>Cuadro floral con opcion de personalizacion de texto</p>
+                                <button class="btn btn-danger fw-bold" type="button">15% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$20.00</button>
+                            </article>
+                
+                            <article class="  p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746406285/6a7e0aa48b13a775856483c86083c22b_h4yoyu.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido amarillo">
+                                <h3>Collares personalizados</h3>
+                                <p>Elige un collar de tu preferencia que sea ideal para Mamá</p>
+                                <button class="btn btn-danger fw-bold" type="button">5% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$10.00</button>
+                            </article>
+
+                            <article class="  p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746406351/a5505d80efcbfaef81ddca4442d03f64_milbcs.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido amarillo">
+                                <h3>Taza del dia de las madres</h3>
+                                <p>Taza blanca con grabado del dia de las madres</p>
+                                <button class="btn btn-danger fw-bold" type="button">40% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$25.00</button>
+                            </article>
+                        </section>
+                    </form>
+                </div>
+
+                <!-- Formulario 3: Bolsas -->
+                <div class="formulario mt-4" id="form-hogar">
+                    <form>
+                        <h5 class="text-center">Bolsos de mano para Mamá</h5>
+                        <section class="d-lg-flex justify-content-around m-1">
+                            <article class=" p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746405819/2afe1faca054f7926e6f567f9d7670b7_rr79zx.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido celeste">
+                                <h3>Bolso cubo mini negro</h3>
+                                <p>Bolso cubo mini con diseño de perlas artificiales con diseño de cordon con cadenas</p>
+                                <button class="btn btn-danger fw-bold" type="button">10% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$45.00</button>
+                            </article>
+                
+                            <article class="p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746405816/072e44f829403f88e67c8e48f96cb793_cp2bpo.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="zapatos con flores">
+                                <h3>Par de bolsones</h3>
+                                <p>Par de bolsones del color de su eleccion hechos de cuero con cadenas  </p>
+                                <button class="btn btn-danger fw-bold" type="button">40% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$49.99</button>
+                            </article>
+                
+                            <article class="  p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746405788/70f1f1bb0e80180acddc68510908743b_kofakh.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido amarillo">
+                                <h3>Bolson pequeño color gris</h3>
+                                <p>Bolsa de mano color gris decorado con perlas en el broche</p>
+                                <button class="btn btn-danger fw-bold" type="button">30% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$65.00</button>
+                            </article>
+                            <article class="  p-4 text-center m-2">
+                                <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/c_fill,w_1000,h_1000,ar_1:1,g_auto/v1746405778/2f4e31f54c176a37d33f490a0e7057cb_yxyeqv.jpg"
+                                    class="img-fluid mx-auto d-block border rounded" alt="vestido amarillo">
+                                <h3>Bolsa de mano</h3>
+                                <p>VBolsa de mano color verde con tiras decoradad y broce ovalado</p>
+                                <button class="btn btn-danger fw-bold" type="button">15% Dcto</button>
+                                <button class="btn btn-light fw-bold" type="button">$45.00</button>
+                            </article>
+                        </section>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <!--Botones-->
+        <section class="container">
+            <div class="d-grid gap-2 col-6 mx-auto mb-4 text-center">
+                <h5 class="text-danger">Aun no has iniciado sesion?</h5>
+                <p>Inicia sesion ya y goza de todos los privilegios!</p>
+                <a class="btn btn-danger fw-bold" href="login.html" role="button">Iniciar Sesión</a>
+            </div>
+        </section>
+    </main>
+
+    <!--Pie de Pagina-->
+    <footer class="bg-light text-danger d-lg-flex p-5 mt-3" id="Nosotros-f">
+        <div>
+            <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/v1746228829/logo-footer_nkq1vs.png"
+                alt="Siman logo" class="img-fluid mx-auto d-block px-3 ">
+        </div>
+        <div class="mx-5">
+            <h4>Contacto</h4>
+            <div>
+                <p><strong>Direccion: </strong>San Salvador</p>
+            </div>
+            <div>
+                <p><strong>Correo: </strong> prueba@gmail.com</p>
+            </div>
+            <div>
+                <p><strong>Telefono: </strong> 305-0000-0000</p>
+            </div>
+        </div>
+        <div class="mx-5">
+            <h4>Redes Sociales</h4>
+            <div class="fs-2">
+                <a href="https://www.instagram.com/almacenessiman_sv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                    class="text-danger"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com/simanelsalvador" class="text-danger"><ion-icon
+                        name="logo-facebook"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+    <!--Fin de pie de pagina-->
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <!--Iconos-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

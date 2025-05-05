@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siman</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!--Parte Superior-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light fs-3 ps-3 fw-bold" href="index.html">Siman</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ps-3 fs-4 ">
+                        <li class="nav-item me-3">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light " href="#Nosotros-f">Carrito</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-danger bg-danger-subtle" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Fin Parte Superior-->
+    
+    <!--Contenido-->
+    <main class="container">
+        <section class="d-flex justify-content-center align-items-center vh-100 text-center">
+            <div class="card m-4" style="max-width: 20;">
+                <div class="card-body p-4 ">
+                    <form>
+                        <h5 class="card-title">Iniciar Sesion</h5>
+                        <p class="card-subtitle mb-2 text-body-secondary">Bienvenido a Siman, a continuacion puedes agregar tus
+                            datos para iniciar sesion en Siman y podes gozar de todos los productos a tu disposicion.</p>
+
+                        <label for="email">Correo electrónico: </label><br>                        
+                        <input type="email" id="email" name="email">
+                        <br>
+                        <label for="email">Contraseña: </label><br>                        
+                        <input type="password" id="password" name="password"><br>
+                        <a href="signin.html" class="cuenta-registrar">No tienes una cuenta? Regístrate</a>
+                        <br>
+                        <button type="submit" class="btn btn-danger fw-bold mt-3">Enviar</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Fin Contenido-->
+
+    <!--Pie de Pagina-->
+    <footer class="bg-light text-danger d-lg-flex p-5 mt-3" id="Nosotros-f">
+        <div>
+            <img src="https://res.cloudinary.com/dhotqeo6c/image/upload/v1746228829/logo-footer_nkq1vs.png"
+                alt="Siman logo" class="img-fluid mx-auto d-block px-3 ">
+        </div>
+        <div class="mx-5">
+            <h4>Contacto</h4>
+            <div>
+                <p><strong>Direccion: </strong>San Salvador</p>
+            </div>
+            <div>
+                <p><strong>Correo: </strong> prueba@gmail.com</p>
+            </div>
+            <div>
+                <p><strong>Telefono: </strong> 305-0000-0000</p>
+            </div>
+        </div>
+        <div class="mx-5">
+            <h4>Redes Sociales</h4>
+            <div class="fs-2">
+                <a href="https://www.instagram.com/almacenessiman_sv?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                    class="text-danger"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com/simanelsalvador" class="text-danger"><ion-icon
+                        name="logo-facebook"></ion-icon></a>
+            </div>
+        </div>
+    </footer>
+    <!--Fin de pie de pagina-->
+
+    <!--Alertas-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+
+    <!--Iconos-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
