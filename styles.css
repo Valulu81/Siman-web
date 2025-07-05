@@ -29,7 +29,7 @@
 .formulario {
     display: none;
 }
-
+/**/
 #btn-ropa:checked~#form-ropa,
 #btn-tecnologia:checked~#form-tecnologia,
 #btn-hogar:checked~#form-hogar {
